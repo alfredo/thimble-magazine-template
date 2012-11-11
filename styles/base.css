@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+.book {
+    text-align: left;
+    width: 780px;
+    margin: 0 auto;
+}
+
+section {
+    width: 390px;
+    float: left;
+}
+
+section:before
+{
+    content: "Thimble magazine";
+}
+
+h1 {
+    font-size: 45px;
+    margin: 0;
+}
+

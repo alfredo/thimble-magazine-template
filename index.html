@@ -1,0 +1,123 @@
+<!doctype html>
+<!--
+    Let's get started.
+
+    1) READ THROUGH THE COMMENTS. This is a comment. Everything inside of this tag for HTML or '/*' for CSS, is not processed as code, but instead is just text comments about the code. For this project, the comments will give you instructions, hints and guides to completing the project, so skim down through the comments to get an understanding of what you are being asked to do.
+
+    ) GET ORIENTED IN THE CODE. HTML is made up of tags that look like this <p> </p>. The tags tell you something about the information contained between them. Click on the tags in the code on this side of the editor to get a description of what each tag is for.
+
+  -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <base href=".">
+    <title>Thimble Mag!</title>
+    <link href='http://fonts.googleapis.com/css?family=BenchNine:300' rel='stylesheet' type='text/css'>
+    <style type="text/css" media="screen">
+      /*
+      Everything contained within this <style> tag is called CSS and it is used to define the presentational components of the page, like fonts, colors, containers, positioning, etc. Remember that in CSS, comments are enclosed in '/*'. You can edit this CSS to change the look and feel of your page.
+        */
+        body {
+        text-align: center;
+        }
+
+        .book {
+        text-align: left;
+        background: #a39b94 url(/images/cover-frame.png) top left no-repeat;
+        width: 398px;
+        height: 607px;
+        margin: 0 auto;
+        padding: 35px 30px 30px 38px;
+        }
+
+        .border {
+        width: 395px;
+        height: 600px;
+        overflow: hidden;
+        position: relative;
+        }
+
+
+        /*
+        Several tag can be modified at once.
+        This is where you header styles are defined. Try changing the size or the font attributes.
+        */
+        h1, h2, h3, h4, h5
+        {
+        font-family: 'BenchNine', sans-serif;
+        text-transform: uppercase;
+        background: #FF0000;
+        color: #FFFFFF;
+        position: relative;
+        display: inline-block;
+        float: left;
+        clear: left;
+        margin: 0 25px;
+        padding: 0 0.3em;
+        }
+
+        /*
+        This is where your <h1> header style is defined. Try changing the size or the font attributes.
+          */
+
+          h1 {
+          margin-top: 22px;
+          font-size: 70px;
+          padding: 0 0.1em;
+          }
+
+          h2 {
+          margin-top: 300px;
+          font-size: 30px;
+          /*transform: rotate(-5deg);*/
+          float: left;
+          font-size: 25px;
+          padding: 0.2em;
+          }
+
+          h3, h4, h5
+          {
+          background: #FFFFFF;
+          color: #3a3a3c;
+          font-size: 27px;
+          padding: 0.2em;
+          }
+
+          h4 {
+          color: #FF0000;
+          }
+
+          img {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          height: 100%;
+          }
+      </style>
+  </head>
+  <body>
+    <div class="book">
+      <div class="border">
+        <!--
+            Change the magazine link to go to the next page which has the content.
+          -->
+        <a href="content.html">
+          <!--
+            Change the Magazine cover by cutting and pasting the src attribute of the <img> tag from down below into the <img> tag below. The src attribute defines the URL for the image and is a required part of the <img> tag. Or you can just cut and paste the entire <img> tag. Note that the <img> tag is one of the few weird tags that doesn't need a close tag
+          -->
+        <img src="http://farm5.staticflickr.com/4140/4878877825_b503355ffb.jpg" alt="" />
+        </a>
+        <!--
+            The following text uses an <h1> tag, where "h" stands for header and "1" means most important, or in most cases, biggest, followed by h2, h3, etc. It is used to build an outline or hierarchy into your page. Think about changing the text in the <h1> tag to something that will really grab your readers attention. Use the <h2>, or subheader.
+          -->
+        <h1>Thimble Mag!</h1>
+        <!--
+            The level of importance of the titles is represented by the number next to the h from h1 to h6
+          -->
+        <h2>New</h2>
+        <h3>Top 10 album reviews</h3>
+        <h4>P24</h4>
+      </div>
+    </div>
+  </body>
+</html>
