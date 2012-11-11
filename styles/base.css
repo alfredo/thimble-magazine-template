@@ -8,15 +8,22 @@ body {
     margin: 0 auto;
 }
 
-section {
-    width: 390px;
-    float: left;
-}
 
 section:before
 {
-    content: "Thimble magazine";
+    content: "Thimble mag!";
+    color: #FF0000;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 20px;
 }
+
+section {
+    width: 390px;
+    float: left;
+    margin-top: 10px;
+}
+
 
 h1 {
     font-size: 45px;
